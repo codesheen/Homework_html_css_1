@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <link rel="icon" href="logo.gif" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFix</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+
+<body>
+    <div class="card">
+    <div class="header">
+        <img src="logo.gif" alt="Logo" class="logo" >
+        <h3>Velkommen til vår reparasjonstjeneste!</h3>
+    </div>
+        <div class="content">
+            <table>
+                <caption id="price-list">Prisliste for reparasjoner</caption>
+                <tr>
+                    <th>Tjeneste</th>
+                    <th>Kategori</th>
+                    <th>Estimerd tid</th>
+                    <th>Pris (inkl. mva)</th>
+                </tr>
+                <tr>
+                    <td>Skjermbytte iPhone</td>
+                    <td>Mobil</td>
+                    <td>1 time</td>
+                    <td>1 490 kr</td>
+                </tr>
+                <tr>
+                    <td>Rens av viftesystem / Støvfjerningsservice</td>
+                    <td>PC / Bærbar</td>
+                    <td>45 min</td>
+                    <td>490 kr</td>
+                </tr>
+                <tr>
+                    <td>Bytte av SSD & Reinstallasjon av OS</td>
+                    <td>Lagring / PC</td>
+                    <td>2 timer</td>
+                    <td>1 250 kr</td>
+                </tr>
+                <tr>
+                    <td>Diagnostisering og feilsøking</td>
+                    <td>Generelt</td>
+                    <td>30 min</td>
+                    <td>290 kr</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Minstepris for oppstart:</td>
+                    <td>290 kr  </td>
+                </tr>
+            </table>
+            <div class="bestil">
+                <div class="content2">
+                    <form action="" method="get" class="form">
+                        <fieldset class="fieldset0">
+                        <legend>Bestill reparasjon</legend>
+                        <label for="name">Navn:</label>
+                        <input type="text" placeholder="Fullt navn" id="name" required>
+                        <label for="email">E-post:</label>
+                        <input type="email" placeholder="E-postadresse" id="email" required>
+                        <label for="enhetstype">Velg enhetstype:</label>
+                        <select id="enhetstype" required>
+                            <option value="">Velg enhetstype</option>
+                            <option value="mobil">Mobil</option>
+                            <option value="pc">PC / Bærbar</option>
+                            <option value="lagring">Lagring</option>
+                        </select>
+
+                        <div class="radio-box">
+                            <label><input type="radio" id="html" name="fav_language" value="HTML" checked> Standard</label>
+                            <label><input type="radio" id="css" name="fav_language" value="CSS"> Haste</label>
+                        </div>
+
+                        <textarea type="text" placeholder="Beskriv problemet" id="massage" required></textarea>
+                        <button class="btn" type="submit" value="Send">
+                            Send
+                        </button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+    
+</script>
+</body>
+</html>

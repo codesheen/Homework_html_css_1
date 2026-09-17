@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden; /* чтобы содержимое не вылезало за закруглённые края */
+    
+}
+.logo {
+    width: 100px;
+    height: auto;
+}
+.header {
+    background-color: #2b70b8;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    display: flex;              /* включает Flexbox */
+    flex-direction: row;       /* элементы идут слева направо */
+    align-items: center;       /* выравнивает по вертикали */
+}
+
+.content {
+    padding: 15px;
+}
+
+.bestil {
+    display: flex; /* включает Flexbox */
+    width: 700px;
+    align-items: center; /* выравнивает элементы по вертикали */
+    justify-content: center; /* выравнивает элементы по горизонтали */
+    margin: 10px auto 0 auto; /* auto по бокам ставит блок по центру */
+    border: 0px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.content2 {
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto 0 auto;
+}
+
+/* Общие стили для класса .btn и тега button */
+.btn {
+  background-color: #3498db; /* Базовый синий цвет (из .btn) */
+  color: white;              /* Белый текст */
+  padding: 10px 20px;        /* Отступы (взяты 10px 20px для лучшего вида) */
+  border: none;              /* Убираем стандартную рамку */
+  cursor: pointer;           /* Курсор-палец при наведении */
+  border-radius: 4px;        /* Скругление углов (из button) */
+  
+  /* Плавный переход для цвета фона за 0.2 секунды */
+  transition: background-color 0.3s; 
+}
+
+/* Стили при наведении (эффект hover) */
+.btn:hover{
+  background-color: #2980b9; /* Темно-синий цвет при наведении */
+}
+
+
+fieldset {
+    margin-top: 20px;
+    display: flex; /* включает Flexbox */
+    flex-direction: column; /* элементы идут сверху вниз */
+    gap: 10px; /* расстояние между элементами */
+    width: 682px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box; /* padding входит в общую ширину */
+}
+
+.form label,
+.form input,
+.form select {
+    display: block;
+    width: 655px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* ширина включает padding */
+}
+
+table {
+    align-items: center;
+    margin: 20px auto 0 auto; /* центрирует таблицу */
+}
+
+#techfix {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse; /* убирает двойные границы у таблицы */
+}
+
+th, td {
+    padding: 10px;
+}
+
+textarea {
+    width: 655px;
+    height: 100px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.form input[type="radio"] {
+    width: auto;
+    display: inline;
+}
+
+.radio-box label {
+    width: auto;
+    margin-right: 15px;
+}
+
